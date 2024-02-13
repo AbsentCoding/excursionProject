@@ -4,25 +4,46 @@
 }
 
 .text-container{
-    display: flex;
+    display: block;
     align-items: center;
 }
 
 .text {
     color: white;
-    display: flex;
     text-align: center;
 }
 
-.phone-icon {
+.image-container {
+    width: fit-content;
+    justify-content: center;
     display: flex;
+    flex-flow: wrap;
+}
+
+.camp-img {
+    align-self: center;
+}
+
+.phone-png-container {
+    display: block;
     align-items: center;
+}
+
+.phone-icon {
     
+}
+
+.link-container {
+    display: block;   
+    align-items: center;
+}
+
+.copyright-container {
+    display: block;  
+    align-items: right;
 }
 
 .copyright {
     color: grey;
-    display: flex;
-    align: right;
 }
 
